@@ -62,6 +62,13 @@ Problema1/
  productHelper.cs
  ProductHelperAux.cs
 Problema2/Problema2.cs
+Problema3/
+ Problema3.cs
+ Product.cs
+Problema4/Problema4.cs
+Problema5/
+ Problema5.cs
+ Sale.cs
 Program.cs
 
 [metadataReferences]
