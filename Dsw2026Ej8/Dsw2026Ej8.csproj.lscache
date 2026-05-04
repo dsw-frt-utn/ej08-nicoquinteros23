@@ -61,6 +61,7 @@ obj/Debug/net10.0/
 Problema1/
  productHelper.cs
  ProductHelperAux.cs
+Problema2/Problema2.cs
 Program.cs
 
 [metadataReferences]
