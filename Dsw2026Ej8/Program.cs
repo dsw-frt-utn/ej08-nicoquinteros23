@@ -3,7 +3,7 @@ using Dsw2026Ej8.Problema2;
 using Dsw2026Ej8.Problema3;
 using Dsw2026Ej8.Problema4;
 using Dsw2026Ej8.Problema5;
-
+using Dsw2026Ej8.Problema6;
 
 
 namespace Dsw2026Ej8
@@ -44,20 +44,32 @@ namespace Dsw2026Ej8
             Console.WriteLine("Problema 4: " + problema4.CalcularPromedio(8, 6, 10));
             Console.WriteLine("Problema 4 (nulls): " + problema4.CalcularPromedio(null, null, null));
             Console.WriteLine("Problema 4 (invalida): " + problema4.CalcularPromedio(8, -1, 10));
-        
-        
-        
-        
-        
-        
-        
 
-// dentro del Main:
-var problema5 = new ImporteHelper();
-var retail = new RetailSale(1000m);
-var wholesale = new WholesaleSale(1000m);
-Console.WriteLine("Problema 5 Retail: " + problema5.ObtenerImporteFinal(retail));
-Console.WriteLine("Problema 5 Wholesale: " + problema5.ObtenerImporteFinal(wholesale));
+
+
+
+
+
+
+
+            // problema 5
+            var problema5 = new ImporteHelper();
+            var retail = new RetailSale(1000m);
+            var wholesale = new WholesaleSale(1000m);
+            Console.WriteLine("Problema 5 Retail: " + problema5.ObtenerImporteFinal(retail));
+            Console.WriteLine("Problema 5 Wholesale: " + problema5.ObtenerImporteFinal(wholesale));
+
+
+            //problema 6
+
+
+
+            var problema6 = new CodigoHelper();
+            Console.WriteLine("Problema 6: " + problema6.NormalizarCodigoProducto(" ab 123 x "));
+            Console.WriteLine("Problema 6 (null): " + problema6.NormalizarCodigoProducto(null));
+
+
+
         }
     }
 
